@@ -40,7 +40,7 @@ Under Unix the drag & drop protocol in use is the XDND protocol version 4
 make 
 
 %install
-make DESTDIR=%{buildroot} pkglibdir=%{directory}/%{_lib}/tcl/%{name}%{version} install
+make DESTDIR=%{buildroot} pkglibdir=%{tcl_archdir}/%{name}%{version} install
 
 %clean
 rm -rf %buildroot
@@ -48,6 +48,6 @@ rm -rf %buildroot
 %files
 %doc doc/tkDND.htm license.terms
 %defattr(-,root,root)
-%{directory}/%{_lib}/tcl
+%{tcl_archdir}
 %{directory}/share/man/mann
 
