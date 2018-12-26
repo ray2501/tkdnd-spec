@@ -19,5 +19,5 @@ set buildit [list rpmbuild --target $arch --define "_topdir [pwd]/build" -bb tkd
 exec >@stdout 2>@stderr {*}$buildit
 
 # Remove source code package
-#file delete $base.tar.gz
+file delete $base.tar.gz
 
