@@ -2,6 +2,6 @@
 
 openSUSE TkDND RPM spec
 
-[TkDND](http://www.ellogon.org/petasis/index.php/tcltk-projects/tkdnd)
+[TkDND](https://github.com/petasis/tkdnd)
 is an extension that adds native drag & drop capabilities to the tk toolkit.
 
