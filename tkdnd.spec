@@ -4,16 +4,17 @@
 
 Name:          tkdnd
 Summary:       Tk extension that adds native drag & drop capabilities
-Version:       2.9.2
+Version:       2.9.4
 Release:       1
 License:       TCL
 Group:         Development/Libraries/Tcl
-Source:        tkdnd-release-test-v2.9.2.tar.gz
+Source:        tkdnd-release-test-v2.9.4.tar.gz
 URL:           https://github.com/petasis/tkdnd
 BuildRequires: autoconf
 BuildRequires: make
 BuildRequires: tcl-devel >= 8.4
 BuildRequires: tk-devel >= 8.4
+BuildRequires: libXcursor-devel
 Requires:      tcl >= 8.4
 Requires:      tk >= 8.4
 BuildRoot:     %{buildroot}
